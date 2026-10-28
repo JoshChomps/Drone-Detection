@@ -1,0 +1,29 @@
+# Data, weights and run outputs never go in the repo (the repo is on D:; data stays outside it):
+# keep them in C:\cuas_data or on Google Drive. See 14_build_log_and_experiments.md.
+# Leading slash = repo root only. A bare `datasets/` also ignored the SOURCE package cuas/datasets/ (16 #54).
+/data/
+/datasets/
+/runs/
+*.pt
+*.engine
+*.onnx
+*.mp4
+*.avi
+*.mkv
+*.jpg
+*.png
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.zip
+
+# Local-only files: AI tool configs, interview notes, secrets, editor locks
+CLAUDE.md
+AGENTS.md
+.claude/
+PROF_QA.md
+HANDOFF*.md
+.env
+*.lck
